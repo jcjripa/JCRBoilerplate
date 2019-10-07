@@ -1,0 +1,47 @@
+
+// Colors
+
+$color-success : hsl(141, 71%,  48%);
+$color-warning : hsl(48,  100%, 67%);
+$color-danger  : hsl(348, 100%, 61%);
+$color-link    : hsl(217, 71%,  53%);
+$color-info    : hsl(0, 0%, 86%);
+
+$light:hsl(0, 0%, 86%) ;
+$dark: hsl(0, 0%, 29%) ;
+
+
+// Typography
+
+$font-family: BlinkMacSystemFont, -apple-system, 'Raleway', sans-serif;
+$family-code: monospace ;
+
+$weight-light: 300;
+$weight-normal: 400 ;
+$weight-medium: 500 ;
+$weight-bold: 700 ;
+$weight-bolx:900;
+
+//  Z-index Variables
+
+$z-back: -10;
+$z-normal: 1;
+$z-tooltip: 10;
+$z-fixed: 100;
+$z-modal: 1000;
+
+
+//  Layout
+
+$max-width: 1200px;
+
+
+//  BreakPoints
+$breakpoints : (
+    s  : 36em,  // ~ 576px ( landscape mobiles )
+    m  : 48em,  // ~ 768px ( tablets )
+    lg : 62em,  // ~ 992px ( desktop )
+    xl : 75em   // ~1200px ( Tvs )
+) !default;
+
+

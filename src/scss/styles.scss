@@ -1,0 +1,56 @@
+
+                              /* ------------------------------------ */
+                              /*          ARCHITECTURE ITCSS          */
+                              /* ------------------------------------ */
+
+/* ------------------------------------ */
+/* Settings : se utiliza con preprocesadores y contiene fuentes, definiciones de colores, etc. */
+/* ------------------------------------ */
+@import '1- Settings/variables';
+
+
+/* ------------------------------------ */
+/* Tools : mixins y funciones de uso global. Es importante no generar ningún CSS en las 2 primeras capas. */
+/* ------------------------------------ */
+
+@import '2- Tools/functions';
+@import '2- Tools/mediaquerys';
+@import '2- Tools/visibility';
+
+/* ------------------------------------ */
+/* Generic : restablecer y / o normalizar estilos, definición de tamaño de caja, etc. Esta es la primera capa que genera CSS real. */
+/* ------------------------------------ */
+
+@import '3- Generic/normalize';
+// @import '3- Generic/reset';
+
+
+/* ------------------------------------ */
+/* Elements : estilo para elementos HTML desnudos (como H1, A, etc.). Estos vienen con un estilo predeterminado del navegador para que podamos redefinirlos aquí. */
+/* ------------------------------------ */
+
+@import '4- Elements/elements';
+
+/* ------------------------------------ */
+/* Objects : selectores basados ​​en clases que definen patrones de diseño no decorados, por ejemplo, para este boilerplate Trabajare con SUITCSS */
+/* ------------------------------------ */
+
+@import '5- Objects/animations';
+
+/* ------------------------------------ */
+/* Components : componentes específicos de la interfaz de usuario. Aquí es donde tiene lugar la mayor parte de nuestro trabajo y nuestros componentes de la interfaz de usuario a menudo están compuestos de objetos y componentes */
+/* ------------------------------------ */
+
+@import '6- Components/Bienvenida';
+/* ------------------------------------ */
+/* Utilities : utilidades y clases de ayuda con la capacidad de anular cualquier cosa anterior al triángulo, por ejemplo. ocultar clase auxiliar */
+/* ------------------------------------ */
+
+
+
+
+
+/* ------------------------------------ */
+/* Recurses : recursos para urls o cdn de fuentes o librerias  */
+/* ------------------------------------ */
+

@@ -1,0 +1,52 @@
+{
+  "_from": "boilerplate-jcj",
+  "_id": "boilerplate-jcj@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-dsLkE714lSHP6uSVvlwyu7sEkqrWxWIfim6vnz5hcKbDPN+JNJSaXMvfpAAPpViv0fUTEHvzptOt6f7tj0SJhQ==",
+  "_location": "/boilerplate-jcj",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "boilerplate-jcj",
+    "name": "boilerplate-jcj",
+    "escapedName": "boilerplate-jcj",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/boilerplate-jcj/-/boilerplate-jcj-1.0.0.tgz",
+  "_shasum": "888e610c546f17237e77fc61a16126165a989b9f",
+  "_spec": "boilerplate-jcj",
+  "_where": "/Users/juliocesar/Desktop/Boilerplate",
+  "author": {
+    "name": "Julio Cesar Rivera"
+  },
+  "bundleDependencies": false,
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Template Base with Gulp , ITCSS",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "del": "^5.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-change": "^1.0.2",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-declare": "^0.3.0",
+    "gulp-handlebars": "^5.0.2",
+    "gulp-imagemin": "^6.0.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify-es": "^1.0.4",
+    "gulp-wrap": "^0.15.0"
+  },
+  "license": "MIT",
+  "name": "boilerplate-jcj",
+  "version": "1.0.0"
+}

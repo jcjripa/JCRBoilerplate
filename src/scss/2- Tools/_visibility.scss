@@ -1,0 +1,41 @@
+/* ------------------------------------ */
+/* Muestra un elemento a partir del breakpoint especificado */
+/* ------------------------------------ */
+
+@mixin showFrom($bp){
+  @include to($bp){
+    display : none;
+  }
+}
+
+/* ------------------------------------ */
+/* Muestra un elemento por debajo del breakpoint especificado. */
+/* ------------------------------------ */
+
+@mixin showTo($bp){
+  @include from($bp){
+    display : none;
+  }
+}
+
+/* ------------------------------------ */
+/*  Oculta un elemento a partir del breakpoint especificado  */
+/* ------------------------------------ */
+
+@mixin hideFrom($bp){
+  @include from($bp){
+    display : none;
+  }
+}
+
+/* ------------------------------------ */
+/* Oculta un elemento por debajo del breakpoint especificado. */
+/* ------------------------------------ */
+
+@mixin hideTo($bp){
+  @include to($bp){
+    display : none;
+  }
+}
+
+

@@ -1,0 +1,23 @@
+.container{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  background: #61DAFB;
+}
+
+.logo{
+  width: em(500px);
+  height: em(500px);
+  animation: rotar 20s linear  infinite;
+
+}
+
+.title{
+  color: #444;
+  text-align: center;
+
+}
+
