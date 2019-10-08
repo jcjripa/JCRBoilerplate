@@ -41,16 +41,17 @@
 /* Components : componentes específicos de la interfaz de usuario. Aquí es donde tiene lugar la mayor parte de nuestro trabajo y nuestros componentes de la interfaz de usuario a menudo están compuestos de objetos y componentes */
 /* ------------------------------------ */
 
-@import '6- Components/Bienvenida';
+@import '6- Components/bienvenida';
 /* ------------------------------------ */
 /* Utilities : utilidades y clases de ayuda con la capacidad de anular cualquier cosa anterior al triángulo, por ejemplo. ocultar clase auxiliar */
 /* ------------------------------------ */
 
 
-
+@import '7- Utilities/utilities';
 
 
 /* ------------------------------------ */
 /* Recurses : recursos para urls o cdn de fuentes o librerias  */
 /* ------------------------------------ */
+@import url('aqui pegar el link');
 
