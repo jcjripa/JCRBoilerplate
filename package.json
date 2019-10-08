@@ -31,18 +31,21 @@
   "deprecated": false,
   "description": "Template Base with Gulp , ITCSS",
   "devDependencies": {
+    "@babel/core": "^7.6.3",
+    "@babel/preset-env": "^7.6.3",
     "browser-sync": "^2.26.7",
-    "del": "^5.0.0",
+    "critical": "^1.3.6",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
-    "gulp-clean-css": "^4.2.0",
+    "gulp-babel": "^8.0.0",
     "gulp-concat": "^2.6.1",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-htmlmin": "^5.0.1",
     "gulp-imagemin": "^6.1.1",
-    "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2",
     "gulp-uglify-es": "^1.0.4"
   },
   "license": "MIT",
   "name": "frontend-jcr",
-  "version": "1.0.0"
+  "version": "1.0.2"
 }
