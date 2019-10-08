@@ -1,6 +1,6 @@
 {
-  "_from": "boilerplate-jcj",
-  "_id": "boilerplate-jcj@1.0.0",
+  "_from": "frontend-jcr",
+  "_id": "frontend-jcr@1.0.0",
   "_inBundle": false,
   "_integrity": "sha512-dsLkE714lSHP6uSVvlwyu7sEkqrWxWIfim6vnz5hcKbDPN+JNJSaXMvfpAAPpViv0fUTEHvzptOt6f7tj0SJhQ==",
   "_location": "/boilerplate-jcj",
@@ -8,9 +8,9 @@
   "_requested": {
     "type": "tag",
     "registry": true,
-    "raw": "boilerplate-jcj",
-    "name": "boilerplate-jcj",
-    "escapedName": "boilerplate-jcj",
+    "raw": "frontend-jcr",
+    "name": "frontend-jcr",
+    "escapedName": "frontend-jcr",
     "rawSpec": "",
     "saveSpec": null,
     "fetchSpec": "latest"
@@ -19,9 +19,9 @@
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/boilerplate-jcj/-/boilerplate-jcj-1.0.0.tgz",
+  "_resolved": "https://registry.npmjs.org/frontend-jcr/-/frontend-jcr-1.0.0.tgz",
   "_shasum": "888e610c546f17237e77fc61a16126165a989b9f",
-  "_spec": "boilerplate-jcj",
+  "_spec": "frontend-jcr",
   "_where": "/Users/juliocesar/Desktop/Boilerplate",
   "author": {
     "name": "Julio Cesar Rivera"
@@ -35,18 +35,14 @@
     "del": "^5.0.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
-    "gulp-change": "^1.0.2",
     "gulp-clean-css": "^4.2.0",
     "gulp-concat": "^2.6.1",
-    "gulp-declare": "^0.3.0",
-    "gulp-handlebars": "^5.0.2",
     "gulp-imagemin": "^6.1.1",
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2",
-    "gulp-uglify-es": "^1.0.4",
-    "gulp-wrap": "^0.15.0"
+    "gulp-uglify-es": "^1.0.4"
   },
   "license": "MIT",
-  "name": "boilerplate-jcj",
+  "name": "frontend-jcr",
   "version": "1.0.0"
 }
