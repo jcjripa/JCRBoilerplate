@@ -3,7 +3,7 @@
   "_id": "frontend-jcr@1.0.0",
   "_inBundle": false,
   "_integrity": "sha512-dsLkE714lSHP6uSVvlwyu7sEkqrWxWIfim6vnz5hcKbDPN+JNJSaXMvfpAAPpViv0fUTEHvzptOt6f7tj0SJhQ==",
-  "_location": "/boilerplate-jcj",
+  "_location": "/boilerplate",
   "_phantomChildren": {},
   "_requested": {
     "type": "tag",
@@ -29,12 +29,11 @@
   "bundleDependencies": false,
   "dependencies": {},
   "deprecated": false,
-  "description": "Template Base with Gulp , ITCSS",
+  "description": "Este es un template basico para webs estáticas con Arquitectura ITCSS  , Sass y Babel .",
   "devDependencies": {
     "@babel/core": "^7.6.3",
     "@babel/preset-env": "^7.6.3",
     "browser-sync": "^2.26.7",
-    "critical": "^1.3.6",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
     "gulp-babel": "^8.0.0",
@@ -47,5 +46,5 @@
   },
   "license": "MIT",
   "name": "frontend-jcr",
-  "version": "1.0.2"
+  "version": "1.0.3"
 }
