@@ -1,6 +1,6 @@
 {
-  "_from": "frontend-jcr",
-  "_id": "frontend-jcr@1.0.0",
+  "_from": "jcrboilerplate",
+  "_id": "jcrboilerplate@1.0.0",
   "_inBundle": false,
   "_integrity": "sha512-dsLkE714lSHP6uSVvlwyu7sEkqrWxWIfim6vnz5hcKbDPN+JNJSaXMvfpAAPpViv0fUTEHvzptOt6f7tj0SJhQ==",
   "_location": "/boilerplate",
@@ -8,9 +8,9 @@
   "_requested": {
     "type": "tag",
     "registry": true,
-    "raw": "frontend-jcr",
-    "name": "frontend-jcr",
-    "escapedName": "frontend-jcr",
+    "raw": "jcrboilerplate",
+    "name": "jcrboilerplate",
+    "escapedName": "jcrboilerplate",
     "rawSpec": "",
     "saveSpec": null,
     "fetchSpec": "latest"
@@ -19,9 +19,9 @@
     "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npmjs.org/frontend-jcr/-/frontend-jcr-1.0.0.tgz",
+  "_resolved": "https://registry.npmjs.org/jcrboilerplate/-/jcrboilerplate-1.0.0.tgz",
   "_shasum": "888e610c546f17237e77fc61a16126165a989b9f",
-  "_spec": "frontend-jcr",
+  "_spec": "jcrboilerplate",
   "_where": "/Users/juliocesar/Desktop/Boilerplate",
   "author": {
     "name": "Julio Cesar Rivera"
@@ -46,6 +46,6 @@
     "gulp-uglify-es": "^1.0.4"
   },
   "license": "MIT",
-  "name": "frontend-jcr",
-  "version": "1.2.0"
+  "name": "jcrboilerplate",
+  "version": "2.0.0"
 }
