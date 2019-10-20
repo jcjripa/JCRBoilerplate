@@ -1,6 +1,6 @@
 
-# Frontend Boilerplate de JCR
-Este es un template basico para webs estáticas con Arquitectura ITCSS  , Sass y Babel .
+# Frontend Boilerplate de Julio Cesar Rivera
+Este es un template basico para webs estáticas con Arquitectura ITCSS , Pug , Sass y Babel .
 
 Contiene :
 
@@ -13,3 +13,4 @@ Contiene :
 * Htmlmin : Minifica archivos Html
 * Concat : unifica los archivos en uno solo.
 * BrowserSync : Refresca el avance en tiempo real .
+* Pug : template engine de html para proyectos escalables .

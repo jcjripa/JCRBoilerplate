@@ -7,7 +7,8 @@ const gulp = require('gulp'),
   uglify = require('gulp-uglify-es').default,
   cssnano = require('gulp-cssnano'),
   htmlmin = require('gulp-htmlmin'),
-  babel = require('gulp-babel');
+  babel = require('gulp-babel'),
+  pug = require('gulp-pug');
 
 
 let paths = {
@@ -25,7 +26,7 @@ let paths = {
     dest: 'public/js/'
   },
   pages: {
-    src: 'src/pages/**/*.html',
+    src: 'src/pug/pages/**/*.pug',
     dest: 'public/'
   },
   media: {
@@ -43,10 +44,13 @@ function data() {
 
 function pages() {
   return gulp.src(paths.pages.src)
-    .pipe(gulp.dest(paths.pages.dest))
+    .pipe(pug({
+      pretty: true
+    }))
     .pipe(htmlmin({
       collapseWhitespace: true
     }))
+    .pipe(gulp.dest(paths.pages.dest))
     .pipe(browserSync.stream());
 }
 
@@ -107,6 +111,7 @@ function watch() {
     }
   });
   gulp.watch(paths.pages.src, pages);
+  gulp.watch('./src/pug/**/**', pages)
   gulp.watch(paths.scripts.src, scripts);
   gulp.watch(paths.scss.src, scss);
   gulp.watch(paths.media.src, images);

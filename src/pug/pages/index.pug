@@ -1,0 +1,26 @@
+extends ../config/template
+append config
+  -pageTitle = 'Home'
+  -pageDescription = 'Pagina inicial de JCRBoilerplate'
+  -pageImage = ''
+
+block main
+  //- Includes
+  //- include ../includes/mainMenu
+
+  div.viewport
+  nav.circular-menu
+    ul
+      li: a(href="#"): img(src="/media/vscode.svg", alt="image").images
+      li: a(href="#"): img(src="/media/gulp.svg", alt="image").images
+      li: a(href="#"): img(src="/media/babel.svg", alt="image").images
+      li: a(href="#"): img(src="/media/sass.svg", alt="image").images
+      li: a(href="#"): img(src="/media/imagemin.svg", alt="image").images
+      li: a(href="#"): img(src="/media/autoprefixer.svg", alt="image").images
+      li: a(href="#"): img(src="/media/pug.svg", alt="image").images
+      li: a(href="#"): img(src="/media/browsersync.svg", alt="image").images
+
+  a.title(href="https://juliorivera.dev",target='_blank')
+   img(src="/media/close.svg", alt="image" , width='400' height='400')
+
+

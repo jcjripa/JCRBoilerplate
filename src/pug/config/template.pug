@@ -1,0 +1,24 @@
+block config
+  include variables
+doctype html
+html(lang="es")
+  head
+    title J C R | Frontend Boilerplate
+    meta(charset="utf-8")
+    meta(name="viewport" content="initial-scale=1.0, width=device-width")
+    //- Twitter Card
+    meta(name="twitter:card" content="summary_large_image")
+    meta(name="twitter:site" content=twitterAccount)
+
+    //- Open Graph
+    meta(property="og:title" content=pageTitle)
+    meta(property="og:description" content=pageDescription)
+    meta(property="og:image" content=pageImage)
+    //- Links
+    link(rel="stylesheet" href="/css/main.min.css")
+    link(rel="shortcut icon" href="/media/close.svg")
+
+  body
+    block main
+
+    script(src="/js/main.min.js")
