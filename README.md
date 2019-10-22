@@ -14,3 +14,14 @@ Contiene :
 * Concat : unifica los archivos en uno solo.
 * BrowserSync : Refresca el avance en tiempo real .
 * Pug : template engine de html para proyectos escalables .
+
+
+# Instalación
+
+* Instalar node.js en la versión más actual
+* Instalar Gulp de manera global con el comando  : npm install --global gulp-cli
+* Ejecutar el comando : npm install jcrboilerplate
+* Ejecutar el comando : npm install
+* Ejecutar el comando : gulp
+
+y Listo simplemente a maquetar ! todos los cambios en css , html y javascript se irán efectuando automaticamente.
